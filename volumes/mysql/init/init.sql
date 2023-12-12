@@ -17,11 +17,12 @@ CREATE TABLE IF NOT EXISTS `collector`.`limiteMax` (
   `limiteMax` INT NOT NULL,
   PRIMARY KEY (`id`));
 
-INSERT INTO collector.limiteMax (limiteMax) VALUES (220);
-
 CREATE TABLE IF NOT EXISTS `collector`.`limiteMin` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `limiteMin` INT NOT NULL,
   PRIMARY KEY (`id`));
 
-INSERT INTO collector.limiteMin (limiteMin) VALUES (0);
+use collector;
+
+INSERT INTO limiteMax (limiteMax) VALUES (220);
+INSERT INTO limiteMin (limiteMin) VALUES (0);
