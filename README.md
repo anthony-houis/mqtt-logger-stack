@@ -46,4 +46,3 @@ docker-compose start node-red
 
 Install ```node-red-contrib-stackhero-mysql``` to avoid ```ER_NOT_SUPPORTED_AUTH_MODE``` error.
 
-Import ```.json``` flow containing example ```INSERT``` function.
